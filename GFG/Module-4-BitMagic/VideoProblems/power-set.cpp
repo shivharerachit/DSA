@@ -16,6 +16,6 @@ void printPowerSet(string s) {
 
 int main() {
     string s = "ab";
-    printPowerSet(s);
+    printPowerSet(s);r
     return 0;
 }   
