@@ -23,9 +23,10 @@ void mvZeros(int arr[], int n){
     int count = 0;
     for(int i = 0 ; i < n ; i++){
         if(arr[i]!=0){
-            int temp = arr[i];
-            arr[i]=0;
-            arr[count] = temp;
+            swap(arr[count], arr[i]);
+            // int temp = arr[i];
+            // arr[i]=0;
+            // arr[count] = temp;
             count++;
         }
     }
